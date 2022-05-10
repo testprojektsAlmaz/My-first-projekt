@@ -67,6 +67,8 @@ aside {
 
 
 
+
+
 main {
   background-color: rgb(75, 3, 158);
   color: black;
@@ -341,7 +343,7 @@ footer {
   }
 }*/
 
-
+/*
 @media(min-width: 500px) {
   .grid {
     grid-template-columns: 1fr;
@@ -351,7 +353,7 @@ footer {
       "sidebar"
       "footer";
   }
-}
+}*/
 
 
 
