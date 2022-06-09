@@ -9,7 +9,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
   margin: auto;
-  max-width: 70%;
+  max-width: 100%;
   color: aqua;
 }
 * {
@@ -28,8 +28,8 @@ body {
 
 
 aside {
-  width: 100%;
-  height: 0;
+  max-width: 100%;
+  height: 100%;
 
   
 }
@@ -222,11 +222,11 @@ caption {
 .container {
    max-width: 1370px;
   margin: auto;
-  padding: 0, 5em;
+  padding: 0,5em;
   padding-bottom: 20px;
   border: 10px;
   border-radius: 20px;
-  background-color: rgb(5, 4, 14);*/
+  background-color: rgb(5, 4, 14);
 }
 
 .table th {
@@ -241,7 +241,7 @@ caption {
 .container-2 {
   max-width: 1370px;
   margin: auto;
-  padding: 0, 5em;
+  padding: 0,5em;
 }
 
 .caption-2 {
@@ -355,6 +355,38 @@ footer {
   }
 }*/
 
+@media (min-width: 1400px) {
+  aside{
+    width: 90%;
+  height: 100%;
+
+    
+  }
+}
+
+@media (max-width: 1600px) {
+  main{
+    width: 95%;
+    height: 100%;
+    margin-bottom: 0px;
+    
+  }
+}
 
 
+@media (max-width: 1400px) {
+  main{
+    width: 90%;
+    height: 100%;
 
+    
+  }
+}
+@media (max-width: 1200px) {
+  main{
+    width: 90%;
+    height: 100%;
+
+    
+  }
+}
